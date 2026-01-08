@@ -19,13 +19,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "types": [
-      "node",
-      "vite/client"
-    ],
-    "typeRoots": [
-      "./node_modules/@types"
-    ],
     "baseUrl": ".",
     "paths": {
       "@/*": [
