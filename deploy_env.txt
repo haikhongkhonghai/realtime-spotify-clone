@@ -1,0 +1,30 @@
+# --- RENDER.COM DEPLOYMENT ENVIRONMENT VARIABLES ---
+# Copy these variables into the "Environment Variables" section of your Render Blueprint or Web Service.
+
+# [SERVER CONFIG]
+PORT=5000
+NODE_ENV=production
+FRONTEND_URL=https://your-app-name.onrender.com
+
+# [DATABASE]
+MONGODB_URI=mongodb+srv://...
+
+# [CLERK AUTH]
+# Use the Secret Key in the Backend
+CLERK_SECRET_KEY=sk_test_...
+CLERK_PUBLISHABLE_KEY=pk_test_...
+
+# [CLOUDINARY]
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+
+# [NEWS & SEARCH]
+NEWSDATA_API_KEY=pub_...
+
+# [ADMIN]
+ADMIN_EMAIL=ngothebang2002@gmail.com
+
+# [FRONTEND ONLY]
+# Note: Render usually handles these as Secret Files or you can prefix them if using a monorepo setup.
+VITE_CLERK_PUBLISHABLE_KEY=pk_test_...
