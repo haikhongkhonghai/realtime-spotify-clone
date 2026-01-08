@@ -30,7 +30,11 @@
 		"noFallthroughCasesInSwitch": true,
 		"noUncheckedSideEffectImports": true,
 		"types": [
-			"vite/client"
+			"vite/client",
+			"node"
+		],
+		"typeRoots": [
+			"./node_modules/@types"
 		]
 	},
 	"include": [

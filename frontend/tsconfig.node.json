@@ -20,7 +20,11 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     "types": [
-      "node"
+      "node",
+      "vite/client"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
     ],
     "baseUrl": ".",
     "paths": {
